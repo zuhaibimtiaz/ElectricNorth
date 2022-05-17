@@ -7,6 +7,7 @@ enum TableViewCell:String {
 
 enum CollectionViewCell:String{
     case OnBoardCollectionViewCell
+    
     case StepThreeCollectionViewCell
 }
 
