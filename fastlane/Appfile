@@ -6,5 +6,5 @@
 #     https://docs.fastlane.tools/advanced/#appfile
 ENV["MATCH_PASSWORD"] = "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"
 ENV["FASTLANE_PASSWORD"] = "Samsung_on5"
-ENV["FASTLANE_ITC_TEAM_NAME"] = "G23G9WHK7Y "IEC Workers Association - Northern District" (Company/Organization)"
+ENV["FASTLANE_ITC_TEAM_ID"] = "G23G9WHK7Y"
 ENV["FASTLANE_APPLE_APPLICATION_SPECIFIC_PASSWORD"] = "uazk-rtqt-otwu-zpxo"
