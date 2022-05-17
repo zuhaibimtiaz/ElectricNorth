@@ -22,7 +22,7 @@ platform :ios do
   end
 
   desc "Submit a new Testing Build pointing to staging to Apple TestFlight"
-  lane :testflight do
+  lane :totestflight do
     certificates_appstore
     gym(scheme: "ElectricNorth")
     upload_to_testflight(
@@ -41,6 +41,6 @@ platform :ios do
   end
   desc "Sync appstore certificates via match (readonly)"
   lane :certificates_appstore do
-    match(app_identifier: ["deda9.Bitrise-Example"], type: "appstore", readonly: true)
+    match(app_identifier: ["com.yahlli.ElectricNorth"], type: "appstore", readonly: true)
   end
 end
