@@ -87,7 +87,6 @@
 		AD87B0F0E5DC07D8835C98EC /* Pods_ElectricNorth_ElectricNorthUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33F4CA3A721179A3A52D132A /* Pods_ElectricNorth_ElectricNorthUITests.framework */; };
 		F91C373A2833FCD6001EB029 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = F91C37372833FCD6001EB029 /* Appfile */; };
 		F91C373B2833FCD6001EB029 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = F91C37382833FCD6001EB029 /* Fastfile */; };
-		F91C374128341288001EB029 /* Matchfile in Resources */ = {isa = PBXBuildFile; fileRef = F91C374028341288001EB029 /* Matchfile */; };
 		F95D08D7282003A5005528D9 /* check.json in Resources */ = {isa = PBXBuildFile; fileRef = F95D08D6282003A5005528D9 /* check.json */; };
 		F95D08D928200B14005528D9 /* OrganizationInnerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D08D828200B14005528D9 /* OrganizationInnerListViewController.swift */; };
 		F95D08DB28200BBB005528D9 /* NestedDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D08DA28200BBB005528D9 /* NestedDetailsViewController.swift */; };
@@ -201,7 +200,6 @@
 		C8C69BA37B04C110D1AC3461 /* Pods-ElectricNorth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ElectricNorth.release.xcconfig"; path = "Target Support Files/Pods-ElectricNorth/Pods-ElectricNorth.release.xcconfig"; sourceTree = "<group>"; };
 		F91C37372833FCD6001EB029 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
 		F91C37382833FCD6001EB029 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
-		F91C374028341288001EB029 /* Matchfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Matchfile; sourceTree = SOURCE_ROOT; };
 		F95D08D6282003A5005528D9 /* check.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = check.json; sourceTree = "<group>"; };
 		F95D08D828200B14005528D9 /* OrganizationInnerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrganizationInnerListViewController.swift; sourceTree = "<group>"; };
 		F95D08DA28200BBB005528D9 /* NestedDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NestedDetailsViewController.swift; sourceTree = "<group>"; };
@@ -739,7 +737,6 @@
 			children = (
 				F91C37372833FCD6001EB029 /* Appfile */,
 				F91C37382833FCD6001EB029 /* Fastfile */,
-				F91C374028341288001EB029 /* Matchfile */,
 			);
 			path = fastlane;
 			sourceTree = "<group>";
@@ -876,7 +873,6 @@
 				0543F7372731D336006E9F54 /* Main.storyboard in Resources */,
 				05BBF894273B24A70007F8AB /* ItemTableViewCell.xib in Resources */,
 				05BBF890273B0F1B0007F8AB /* HomeHeaderTableViewCell.xib in Resources */,
-				F91C374128341288001EB029 /* Matchfile in Resources */,
 				F91C373B2833FCD6001EB029 /* Fastfile in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
