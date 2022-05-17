@@ -3,7 +3,6 @@ import Foundation
 
 enum TableViewCell:String {
     case AccountTableViewCell
-    
 }
 
 enum CollectionViewCell:String{
