@@ -12,7 +12,7 @@ let STRING_SUCCESS = ""
 let FAILED_MESSAGE = "Failed Please Try Again!"
 let STRING_UNEXPECTED_ERROR = ""
 let TIMEOUT_MESSAGE = "Request Time out"
-let ERROR_NO_NETWORK = "Connection lost. Please check your internet connection and try again. "//"Internet connection is currently unavailable."
+let ERROR_NO_NETWORK = "Connection lost. Please check your internet connection and try again. "
 
 let USER_SUCCESS = "Success"
 let USER_EMAIL_SUCCESS = "Email not exist"
