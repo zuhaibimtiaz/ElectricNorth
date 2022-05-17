@@ -1,0 +1,6 @@
+framework module Pods_ElectricNorth {
+  umbrella header "Pods-ElectricNorth-umbrella.h"
+
+  export *
+  module * { export * }
+}
