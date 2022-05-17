@@ -41,6 +41,6 @@ platform :ios do
   end
   desc "Sync appstore certificates via match (readonly)"
   lane :certificates_appstore do
-    match(app_identifier: ["com.yahlli.ElectricNorth"], type: "appstore", readonly: true)
+    match(app_identifier: ["com.yahlli.ElectricNorth"], type: "appstore", readonly: false)
   end
 end
